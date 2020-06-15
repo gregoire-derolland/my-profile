@@ -1,0 +1,192 @@
+body {
+	background-color: #8AB9B5;
+	color : #8c8e91;
+	font-family: Courier; 
+}
+
+h1 {
+	font-weight: 1OO;
+	color: #00AFB5;
+	letter-spacing: 8px;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 10px auto;
+	text-align: center;
+}
+
+h2 {
+	color: #FF7700; 
+	font-size: 24px;
+	font-family: 'Metal Mania', cursive;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+li {
+	font-weight: bold;
+	font-size: 20px;
+	color: #00AFB5;
+}
+
+
+
+#logo {
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 20px;
+}
+
+#cantal {
+	width: 500px;
+	border-radius: 4px;
+	margin-left: 9%
+}
+
+#mobylette {
+	width: 500px;
+	border-radius: 4px;
+	margin-left: 9%
+}
+
+/*le bouton*/
+.bouton {
+	text-align: center;
+    background-color: #00AFB5;
+    color: white;
+    margin: 9px 241px;
+    padding: 13px;
+    border-radius: 4px;
+    color: white;
+    
+}
+.bouton:hover {
+	background-color: black;
+	color: white;
+} 
+
+
+
+/*custome disign class*/
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.en_tete {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;
+}
+
+.sport {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.intelectuel {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;	
+    margin: 20px 0px;
+}
+
+.aventurier {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;	
+    margin: 20px 0px;
+}
+
+.rattrapage {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;	
+    margin: 20px 0px;
+}
+
+.mobilette {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.réseaux {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;	
+    margin: 20px 0px;
+    text-align: center;
+}
+.réseaux p {
+	font-size: 15px; 
+	letter-spacing: 0px;
+	color: black;
+	font-family: 'Sriracha', cursive;
+
+}
+
+
+
+
+/*custom list*/ 
+.list-inline {
+	color: #00AFB5;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 40px;
+	padding-bottom: 20px;
+}
+
+.list-inline i {
+	font-size: 100px;
+	color: #00AFB5;
+}
+
+.list-inline i:hover {
+	font-size: 150px;
+	color: black; 
+}
+
+.image_snap {
+    width: 102px;
+    border-radius: 10px;	
+}
+.image_snap : hover {
+	width: 150px;
+}
